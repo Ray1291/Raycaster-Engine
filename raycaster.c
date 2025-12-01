@@ -334,7 +334,6 @@ int main(int argc, char** argv)
     glutInitWindowSize(GAME_WINDOW_WIDTH, GAME_WINDOW_HEIGHT);
     glutInitWindowPosition(200,200);
     glutCreateWindow("My Raycaster - V1.0");
-    printf("TESTING");
     init();
     glutDisplayFunc(display);
     glutReshapeFunc(resize);
